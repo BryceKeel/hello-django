@@ -1,0 +1,25 @@
+body{
+    background-color:darkslategrey;
+}
+.name{
+    font-style: oblique;
+    color: brown;
+    background-color:aliceblue;
+}
+.mission{
+    font-style: oblique;
+    color:bisque;
+}
+.shelter{
+    width: 400pt;
+    
+}
+.support{
+    width: 400pt;
+    position: absolute;right: 30pt;
+}
+.arrow{
+    position: absolute;top: 300pt;
+    position: absolute;left: 430pt;
+    width: 250pt;
+}
