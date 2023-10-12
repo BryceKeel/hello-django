@@ -48,26 +48,26 @@
         </div>
         <svg class="defs">
           <defs>
-            <linearGradient id="border" x1="74.5" y1="0" x2="74.5" y2="50" gradientUnits="userSpaceOnUse">
+            <lineargradient id="border" x1="74.5" y1="0" x2="74.5" y2="50" gradientUnits="userSpaceOnUse">
               <stop stop-color="currentColor"/>
               <stop offset="1" stop-color="#776751"/>
-            </linearGradient>
+            </lineargradient>
             <filter id="black-overlay" x="0" y="0" width="100%" height="100%">
-              <feColorMatrix type="matrix" values="0.6 0 0 0 0  0 0.6 0 0 0  0 0 0.6 0 0  0 0 0 1 0" />
+              <fecolormatrix type="matrix" values="0.6 0 0 0 0  0 0.6 0 0 0  0 0 0.6 0 0  0 0 0 1 0" />
             </filter>
             <filter id="inset-shadow" x="-50%" y="-50%" width="200%" height="200%">
-              <feComponentTransfer in="SourceAlpha">
-                <feFuncA type="table" tableValues="1 0" />
-              </feComponentTransfer>
-              <feGaussianBlur stdDeviation="0"/>
-              <feOffset dx="0" dy="1" result="offsetblur"/>
-              <feFlood flood-color="#c9bda8" result="color"/>
-              <feComposite in2="offsetblur" operator="in"/>
-              <feComposite in2="SourceAlpha" operator="in" />
-              <feMerge>
-                <feMergeNode in="SourceGraphic" />
-                <feMergeNode />
-              </feMerge>
+              <fecomponenttransfer in="SourceAlpha">
+                <fefunca type="table" tableValues="1 0" />
+              </fecomponenttransfer>
+              <fegaussianblur stdDeviation="0"/>
+              <feoffset dx="0" dy="1" result="offsetblur"/>
+              <feflood flood-color="#c9bda8" result="color"/>
+              <fecomposite in2="offsetblur" operator="in"/>
+              <fecomposite in2="SourceAlpha" operator="in" />
+              <femerge>
+                <femergenode in="SourceGraphic" />
+                <femergenode />
+              </femerge>
             </filter>
           </defs>
         </svg>
