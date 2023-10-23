@@ -1,0 +1,74 @@
+
+.icon {
+  width: 175pt;
+  position: fixed;
+}
+body {
+  background-color: grey;
+}
+.app {
+  color: aliceblue;
+}
+.api {
+  position: absolute;
+  left: 575pt;
+  border: 3pt;
+  /* border-radius: 20pt; */
+  border-color: rgb(57, 49, 110);
+  border-style: solid;
+  position: absolute;
+  top: 150pt;
+  width: 315pt;
+}
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 12px;
+  line-height: 20px;
+  height: 30px;
+  max-height: 30px;
+  background: none;
+  font-weight: 700;
+  border: 0;
+  border-radius: 0;
+  color: rgb(57, 49, 110);
+  transition-timing-function: ease-in-out;
+  transition-property: background;
+  transition-duration: 150ms;
+  box-shadow: none;
+  :hover {
+    background: #f7f9fd;
+  }
+}
+.searchbar {
+  padding: 0 10px;
+  text-align: left;
+  transition-property: box-shadow, background;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  background-color: grey;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(57, 49, 110);
+  border-radius: 0px;
+  color: rgb(57, 49, 110);
+  width: 75%;
+  cursor: text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  height: 30px;
+  :hover {
+    box-shadow: 0px 2px 4px rgb(39 44 52 / 12%);
+  }
+  :focus {
+    transition-property: border-color, box-shadow, background;
+    border-color: #39414d;
+    outline: 0px;
+    box-shadow: 0 0 0 3px #c5d2e7;
+  }
+}
